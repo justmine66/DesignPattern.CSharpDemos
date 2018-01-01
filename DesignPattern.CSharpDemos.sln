@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "src\DesignPatterns\DesignPatterns.csproj", "{CBFB1410-FD65-41B7-B610-D4DDB94CF397}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "src\DesignPatterns\DesignPatterns.csproj", "{CBFB1410-FD65-41B7-B610-D4DDB94CF397}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0905F71F-559A-45F3-8063-F416F9F44DDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{C348957E-AC79-4930-B77C-07B5E6C98646}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\大话设计模式（带目录完整版）中文PDF\大话设计模式(带目录完整版).pdf = ..\..\..\..\Downloads\大话设计模式（带目录完整版）中文PDF\大话设计模式(带目录完整版).pdf
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
