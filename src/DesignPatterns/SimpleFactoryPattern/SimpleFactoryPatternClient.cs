@@ -4,7 +4,10 @@ using System.Text;
 
 namespace DesignPatterns.SimpleFactoryPattern
 {
-    public class SimpleFactoryPatternTest
+    /// <summary>
+    /// 简单工厂模式客户端实现
+    /// </summary>
+    public class SimpleFactoryPatternClient
     {
         public void Main()
         {

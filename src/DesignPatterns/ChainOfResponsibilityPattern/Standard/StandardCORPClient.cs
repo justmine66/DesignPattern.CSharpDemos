@@ -5,9 +5,9 @@ using System.Text;
 
 namespace DesignPatterns.ChainOfResponsibilityPattern.Standard
 {
-    public class StandardCORPTest
+    public class StandardCORPClient
     {
-        public StandardCORPTest()
+        public StandardCORPClient()
         {
             this.groupLeader = new GroupLeader("王明");
             this.manager = new Manager("赵强");

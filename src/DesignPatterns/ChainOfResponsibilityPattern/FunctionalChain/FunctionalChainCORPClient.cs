@@ -5,9 +5,9 @@ using System.Text;
 
 namespace DesignPatterns.ChainOfResponsibilityPattern.FunctionalChain
 {
-    public class FunctionalChainCORPTest
+    public class FunctionalChainCORPClient
     {
-        public FunctionalChainCORPTest()
+        public FunctionalChainCORPClient()
         {
             this.groupLeader = new GroupLeader("王明");
             this.manager = new Manager("赵强");

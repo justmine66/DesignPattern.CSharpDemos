@@ -7,7 +7,7 @@ namespace DesignPatterns.StrategyPattern.two.v2
     /// <summary>
     /// 标准策略模式测试类
     /// </summary>
-    public class StandardStrategyTest
+    public class StandardStrategyClient
     {
         public void Main()
         {

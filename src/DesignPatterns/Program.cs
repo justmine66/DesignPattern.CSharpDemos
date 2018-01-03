@@ -20,7 +20,7 @@ namespace DesignPatterns
             //new DecoratorTest().Main();
             //new DecoratorV1Test().Main();
             //new DecoratorV2Test().Main();
-            new DecoratorV3Test().Main();
+            new DecoratorV3Client().Main();
             Console.Read();
         }
     }

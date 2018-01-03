@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPatterns.DecoratorPattern.v1
 {
-    public class DecoratorV1Test
+    public class DecoratorV1Client
     {
         public void Main()
         {

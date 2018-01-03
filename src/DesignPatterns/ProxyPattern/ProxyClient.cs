@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPatterns.ProxyPattern
 {
-    public class ProxyTest1
+    public class ProxyClient
     {
         public void Main()
         {
