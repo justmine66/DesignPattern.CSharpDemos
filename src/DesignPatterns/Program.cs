@@ -14,7 +14,7 @@ using System;
 namespace DesignPatterns
 {
     class Program
-    {
+    {     
         static void Main(string[] args)
         {
             //测试职责链模式-标准
