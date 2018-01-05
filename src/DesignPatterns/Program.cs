@@ -36,14 +36,4 @@ namespace DesignPatterns
             Console.Read();
         }
     }
-
-    abstract class a{
-       public abstract int c { get; set; }
-       public abstract int b { get; set; }
-    }
-    class d : a
-    {
-        public override int c { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override int b { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-    }
 }
