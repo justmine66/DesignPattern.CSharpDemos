@@ -9,12 +9,12 @@ using DesignPatterns.PrototypePattern.v2;
 using DesignPatterns.PrototypePattern.v3;
 using DesignPatterns.PrototypePattern.v4;
 using DesignPatterns.SimpleFactoryPattern;
-using System; 
+using System;
 
 namespace DesignPatterns
 {
     class Program
-    {     
+    {
         static void Main(string[] args)
         {
             //测试职责链模式-标准
@@ -35,5 +35,15 @@ namespace DesignPatterns
             new ResumeV4Client().Main();
             Console.Read();
         }
+    }
+
+    abstract class a{
+       public abstract int c { get; set; }
+       public abstract int b { get; set; }
+    }
+    class d : a
+    {
+        public override int c { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override int b { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }
