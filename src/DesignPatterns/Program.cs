@@ -1,4 +1,5 @@
-﻿using DesignPatterns.ChainOfResponsibilityPattern.FunctionalChain;
+﻿using DesignPatterns.BuilderPattern.Mechanism;
+using DesignPatterns.ChainOfResponsibilityPattern.FunctionalChain;
 using DesignPatterns.ChainOfResponsibilityPattern.Standard;
 using DesignPatterns.DecoratorPattern.Mechanism;
 using DesignPatterns.DecoratorPattern.v1;
@@ -32,7 +33,10 @@ namespace DesignPatterns
             //new PrototypePatternClient().Main();
             //new ResumeV2Client().Main();
             //new ResumeV3Client().Main();
-            new ResumeV4Client().Main();
+            //new ResumeV4Client().Main();
+            //测试建造者模式
+            new BuilderPatternClient().Main();
+
             Console.Read();
         }
     }
