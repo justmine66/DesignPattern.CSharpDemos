@@ -13,6 +13,8 @@ using DesignPatterns.PrototypePattern.v2;
 using DesignPatterns.PrototypePattern.v3;
 using DesignPatterns.PrototypePattern.v4;
 using DesignPatterns.SimpleFactoryPattern;
+using DesignPatterns.StatePattern.Mechanism;
+using DesignPatterns.StatePattern.v3;
 using System;
 
 namespace DesignPatterns
@@ -43,7 +45,10 @@ namespace DesignPatterns
             //new ObserverPatternV1Client().Main();
             //new ObserverPatternV3Client().Main();
             //测试抽象工厂模式
-            new AbstractFactoryV3Client().Main();
+            //new AbstractFactoryV3Client().Main();
+            //测试状态模式
+            //new StatePatternClient().Main();
+            new StatePatternV3Client().Main();
 
             Console.Read();
         }
