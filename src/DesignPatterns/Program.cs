@@ -1,4 +1,5 @@
-﻿using DesignPatterns.BuilderPattern.Mechanism;
+﻿using DesignPatterns.AbstractFactoryPattern.v3;
+using DesignPatterns.BuilderPattern.Mechanism;
 using DesignPatterns.ChainOfResponsibilityPattern.FunctionalChain;
 using DesignPatterns.ChainOfResponsibilityPattern.Standard;
 using DesignPatterns.DecoratorPattern.Mechanism;
@@ -40,7 +41,9 @@ namespace DesignPatterns
             //new BuilderPatternClient().Main();
             //测试观察者模式
             //new ObserverPatternV1Client().Main();
-            new ObserverPatternV3Client().Main();
+            //new ObserverPatternV3Client().Main();
+            //测试抽象工厂模式
+            new AbstractFactoryV3Client().Main();
 
             Console.Read();
         }
