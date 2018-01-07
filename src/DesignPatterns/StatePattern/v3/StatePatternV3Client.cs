@@ -27,6 +27,8 @@ namespace DesignPatterns.StatePattern.v3
 
             work.Hour = 19;
             work.WriteProgram();
+            work.Hour = 20;
+            work.WriteProgram();
             work.Hour = 22;
             work.WriteProgram();
         }
