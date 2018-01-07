@@ -5,6 +5,8 @@ using DesignPatterns.DecoratorPattern.Mechanism;
 using DesignPatterns.DecoratorPattern.v1;
 using DesignPatterns.DecoratorPattern.v2;
 using DesignPatterns.DecoratorPattern.v3;
+using DesignPatterns.ObserverPattern.v1;
+using DesignPatterns.ObserverPattern.v3;
 using DesignPatterns.PrototypePattern.Mechanism;
 using DesignPatterns.PrototypePattern.v2;
 using DesignPatterns.PrototypePattern.v3;
@@ -35,7 +37,10 @@ namespace DesignPatterns
             //new ResumeV3Client().Main();
             //new ResumeV4Client().Main();
             //测试建造者模式
-            new BuilderPatternClient().Main();
+            //new BuilderPatternClient().Main();
+            //测试观察者模式
+            //new ObserverPatternV1Client().Main();
+            new ObserverPatternV3Client().Main();
 
             Console.Read();
         }
