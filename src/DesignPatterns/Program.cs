@@ -6,6 +6,7 @@ using DesignPatterns.DecoratorPattern.Mechanism;
 using DesignPatterns.DecoratorPattern.v1;
 using DesignPatterns.DecoratorPattern.v2;
 using DesignPatterns.DecoratorPattern.v3;
+using DesignPatterns.MementoPattern.v2;
 using DesignPatterns.ObserverPattern.v1;
 using DesignPatterns.ObserverPattern.v3;
 using DesignPatterns.PrototypePattern.Mechanism;
@@ -48,8 +49,10 @@ namespace DesignPatterns
             //new AbstractFactoryV3Client().Main();
             //测试状态模式
             //new StatePatternClient().Main();
-            new StatePatternV3Client().Main();
-                 
+            //new StatePatternV3Client().Main();
+            //测试备忘录模式
+            new MementoPatternV2Client().Main();
+
             Console.Read();
         }
     }
