@@ -49,7 +49,7 @@ namespace DesignPatterns
             //测试状态模式
             //new StatePatternClient().Main();
             new StatePatternV3Client().Main();
-
+                 
             Console.Read();
         }
     }
