@@ -3,6 +3,7 @@ using DesignPatterns.BuilderPattern.Mechanism;
 using DesignPatterns.ChainOfResponsibilityPattern.FunctionalChain;
 using DesignPatterns.ChainOfResponsibilityPattern.Standard;
 using DesignPatterns.CompositePattern.Mechanism;
+using DesignPatterns.CompositePattern.v1;
 using DesignPatterns.DecoratorPattern.Mechanism;
 using DesignPatterns.DecoratorPattern.v1;
 using DesignPatterns.DecoratorPattern.v2;
@@ -54,7 +55,8 @@ namespace DesignPatterns
             //测试备忘录模式
             //new MementoPatternV2Client().Main();
             //测试组合模式
-            new CompositePatternClient().Main();
+            //new CompositePatternClient().Main();
+            new CompositePatternV1Client().Main();
 
             Console.Read();
         }
