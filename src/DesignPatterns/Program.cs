@@ -8,6 +8,7 @@ using DesignPatterns.DecoratorPattern.Mechanism;
 using DesignPatterns.DecoratorPattern.v1;
 using DesignPatterns.DecoratorPattern.v2;
 using DesignPatterns.DecoratorPattern.v3;
+using DesignPatterns.IteratorPattern.Mechanism;
 using DesignPatterns.MementoPattern.v2;
 using DesignPatterns.ObserverPattern.v1;
 using DesignPatterns.ObserverPattern.v3;
@@ -19,6 +20,7 @@ using DesignPatterns.SimpleFactoryPattern;
 using DesignPatterns.StatePattern.Mechanism;
 using DesignPatterns.StatePattern.v3;
 using System;
+using System.Collections;
 
 namespace DesignPatterns
 {
@@ -56,7 +58,9 @@ namespace DesignPatterns
             //new MementoPatternV2Client().Main();
             //测试组合模式
             //new CompositePatternClient().Main();
-            new CompositePatternV1Client().Main();
+            //new CompositePatternV1Client().Main();
+            //测试迭代器模式
+            new IteratorPatternClient().Main();
 
             Console.Read();
         }
