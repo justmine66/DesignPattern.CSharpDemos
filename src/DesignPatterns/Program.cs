@@ -11,7 +11,7 @@ using DesignPatterns.DecoratorPattern.v3;
 using DesignPatterns.IteratorPattern.Mechanism;
 using DesignPatterns.MementoPattern.v2;
 using DesignPatterns.ObserverPattern.v1;
-using DesignPatterns.ObserverPattern.v3;
+using DesignPatterns.ObserverPattern.v3;   
 using DesignPatterns.PrototypePattern.Mechanism;
 using DesignPatterns.PrototypePattern.v2;
 using DesignPatterns.PrototypePattern.v3;
