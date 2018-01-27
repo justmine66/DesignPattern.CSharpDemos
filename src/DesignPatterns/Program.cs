@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.AbstractFactoryPattern.v3;
+using DesignPatterns.BridgePattern.Mechanism;
 using DesignPatterns.BuilderPattern.Mechanism;
 using DesignPatterns.ChainOfResponsibilityPattern.FunctionalChain;
 using DesignPatterns.ChainOfResponsibilityPattern.Standard;
@@ -60,7 +61,9 @@ namespace DesignPatterns
             //new CompositePatternClient().Main();
             //new CompositePatternV1Client().Main();
             //测试迭代器模式
-            new IteratorPatternClient().Main();
+            //new IteratorPatternClient().Main();
+            //测试桥接器模式
+            new BridgePatternClient().Main();
 
             Console.Read();
         }
