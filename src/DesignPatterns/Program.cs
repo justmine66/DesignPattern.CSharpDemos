@@ -3,6 +3,7 @@ using DesignPatterns.BridgePattern.Mechanism;
 using DesignPatterns.BuilderPattern.Mechanism;
 using DesignPatterns.ChainOfResponsibilityPattern.FunctionalChain;
 using DesignPatterns.ChainOfResponsibilityPattern.Standard;
+using DesignPatterns.CommanPattern.Mechanism;
 using DesignPatterns.CompositePattern.Mechanism;
 using DesignPatterns.CompositePattern.v1;
 using DesignPatterns.DecoratorPattern.Mechanism;
@@ -63,7 +64,9 @@ namespace DesignPatterns
             //测试迭代器模式
             //new IteratorPatternClient().Main();
             //测试桥接器模式
-            new BridgePatternClient().Main();
+            //new BridgePatternClient().Main();
+            //测试命令模式
+            new CommanPatternClient().Main();
 
             Console.Read();
         }
