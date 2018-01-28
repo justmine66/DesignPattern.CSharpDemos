@@ -13,6 +13,7 @@ using DesignPatterns.DecoratorPattern.v3;
 using DesignPatterns.FlyweightPattern.Mechanism;
 using DesignPatterns.FlyweightPattern.v1;
 using DesignPatterns.FlyweightPattern.v2;
+using DesignPatterns.InterpreterPattern.Mechanism;
 using DesignPatterns.IteratorPattern.Mechanism;
 using DesignPatterns.MediatorPattern.Mechanism;
 using DesignPatterns.MediatorPattern.v1;
@@ -78,7 +79,9 @@ namespace DesignPatterns
             //测试享元模式
             //new FlyweightPatternClient().Main();
             //new FlyweightPatternV1Client().Main();
-            new FlyweightPatternV2Client().Main();
+            //new FlyweightPatternV2Client().Main();
+            //测试解释器模式
+            new InterpreterPatternClient().Main();
 
             Console.Read();
         }
