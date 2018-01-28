@@ -11,6 +11,8 @@ using DesignPatterns.DecoratorPattern.v1;
 using DesignPatterns.DecoratorPattern.v2;
 using DesignPatterns.DecoratorPattern.v3;
 using DesignPatterns.IteratorPattern.Mechanism;
+using DesignPatterns.MediatorPattern.Mechanism;
+using DesignPatterns.MediatorPattern.v1;
 using DesignPatterns.MementoPattern.v2;
 using DesignPatterns.ObserverPattern.v1;
 using DesignPatterns.ObserverPattern.v3;   
@@ -66,7 +68,10 @@ namespace DesignPatterns
             //测试桥接器模式
             //new BridgePatternClient().Main();
             //测试命令模式
-            new CommanPatternClient().Main();
+            //new CommanPatternClient().Main();
+            //测试中介者模式
+            //new MediatorPatternClient().Main();
+            new MediatorPatternV1Client().Main();
 
             Console.Read();
         }
