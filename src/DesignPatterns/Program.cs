@@ -10,6 +10,9 @@ using DesignPatterns.DecoratorPattern.Mechanism;
 using DesignPatterns.DecoratorPattern.v1;
 using DesignPatterns.DecoratorPattern.v2;
 using DesignPatterns.DecoratorPattern.v3;
+using DesignPatterns.FlyweightPattern.Mechanism;
+using DesignPatterns.FlyweightPattern.v1;
+using DesignPatterns.FlyweightPattern.v2;
 using DesignPatterns.IteratorPattern.Mechanism;
 using DesignPatterns.MediatorPattern.Mechanism;
 using DesignPatterns.MediatorPattern.v1;
@@ -71,7 +74,11 @@ namespace DesignPatterns
             //new CommanPatternClient().Main();
             //测试中介者模式
             //new MediatorPatternClient().Main();
-            new MediatorPatternV1Client().Main();
+            //new MediatorPatternV1Client().Main();
+            //测试享元模式
+            //new FlyweightPatternClient().Main();
+            //new FlyweightPatternV1Client().Main();
+            new FlyweightPatternV2Client().Main();
 
             Console.Read();
         }
