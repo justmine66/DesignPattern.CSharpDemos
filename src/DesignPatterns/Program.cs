@@ -14,6 +14,7 @@ using DesignPatterns.FlyweightPattern.Mechanism;
 using DesignPatterns.FlyweightPattern.v1;
 using DesignPatterns.FlyweightPattern.v2;
 using DesignPatterns.InterpreterPattern.Mechanism;
+using DesignPatterns.InterpreterPattern.MusicInterpreter;
 using DesignPatterns.IteratorPattern.Mechanism;
 using DesignPatterns.MediatorPattern.Mechanism;
 using DesignPatterns.MediatorPattern.v1;
