@@ -27,6 +27,9 @@ using DesignPatterns.PrototypePattern.v4;
 using DesignPatterns.SimpleFactoryPattern;
 using DesignPatterns.StatePattern.Mechanism;
 using DesignPatterns.StatePattern.v3;
+using DesignPatterns.VisitorPattern.Mechanism;
+using DesignPatterns.VisitorPattern.v1;
+using DesignPatterns.VisitorPattern.v2;
 using System;
 using System.Collections;
 
@@ -81,7 +84,11 @@ namespace DesignPatterns
             //new FlyweightPatternV1Client().Main();
             //new FlyweightPatternV2Client().Main();
             //测试解释器模式
-            new InterpreterPatternClient().Main();
+            //new InterpreterPatternClient().Main();
+            //测试访问者模式
+            //new VisitorPatternV1Client().Main();
+            //new VisitorPatternV2Client().Main();
+            new VisitorPatternClient().Main();
 
             Console.Read();
         }
