@@ -14,6 +14,7 @@ using DesignPatterns.FlyweightPattern.Mechanism;
 using DesignPatterns.FlyweightPattern.v1;
 using DesignPatterns.FlyweightPattern.v2;
 using DesignPatterns.InterpreterPattern.Mechanism;
+using DesignPatterns.InterpreterPattern.MusicInterpreter;
 using DesignPatterns.IteratorPattern.Mechanism;
 using DesignPatterns.MediatorPattern.Mechanism;
 using DesignPatterns.MediatorPattern.v1;
@@ -81,7 +82,8 @@ namespace DesignPatterns
             //new FlyweightPatternV1Client().Main();
             //new FlyweightPatternV2Client().Main();
             //测试解释器模式
-            new InterpreterPatternClient().Main();
+            //new InterpreterPatternClient().Main();
+            new InterpreterPatternV1Client().Main();
 
             Console.Read();
         }
