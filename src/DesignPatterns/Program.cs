@@ -10,6 +10,7 @@ using DesignPatterns.DecoratorPattern.Mechanism;
 using DesignPatterns.DecoratorPattern.v1;
 using DesignPatterns.DecoratorPattern.v2;
 using DesignPatterns.DecoratorPattern.v3;
+using DesignPatterns.DecoratorPattern.v4;
 using DesignPatterns.FlyweightPattern.Mechanism;
 using DesignPatterns.FlyweightPattern.v1;
 using DesignPatterns.FlyweightPattern.v2;
@@ -51,6 +52,7 @@ namespace DesignPatterns
             //new DecoratorV1Client().Main();
             //new DecoratorV2Client().Main();
             //new DecoratorV3Client().Main();
+            new Player().Main();
             //测试原型模式
             //new PrototypePatternClient().Main();
             //new ResumeV2Client().Main();
@@ -89,7 +91,7 @@ namespace DesignPatterns
             //测试访问者模式
             //new VisitorPatternV1Client().Main();
             //new VisitorPatternV2Client().Main();
-            new VisitorPatternClient().Main();
+            //new VisitorPatternClient().Main();
 
             Console.Read();
         }
